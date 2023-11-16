@@ -1,8 +1,10 @@
+const config = require('gatsby-plugin-config');
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Boostrap 5 Sass Starter`,
-    description: `A simple bootstrap 5 and Sass starter for Gatsby. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@r-ichard`,
+    title: `Takenaka`,
+    description: `.`,
+    author: `Aris Prasetyo`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -36,5 +38,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `${config.SPACE_ID}`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: config.CONTENT_ACCESS_DELIVERY_API,
+      },
+    }
   ],
 }
