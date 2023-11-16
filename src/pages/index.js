@@ -5,12 +5,14 @@ import Footer from "../components/footer";
 import HomeIndex from "../components/home-Index"
 
 const IndexPage = () => (
-  <Layout className="container">
-    <section className="py-5 text-center">
-      <HomeIndex/>
-    </section>
+  <>
+    <Layout className="container">
+      <section className="py-5 text-center">
+        <HomeIndex/>
+      </section>
+    </Layout>
     <Footer/>
-  </Layout>
+  </>
 )
 
 export default IndexPage

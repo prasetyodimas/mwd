@@ -5,35 +5,31 @@ import { StaticImage } from "gatsby-plugin-image"
 const HomeIndex = () => {
   return (
     <div className="block-content">
-      <div className="header"></div>
       <div className="content">
-        <div className="country-menu">
-          <ul className="countryMenuList">
-            <li className=""><a href="/">HOME</a></li>
-            <li className=""><a href="/about/">About</a></li>
-            <li className=""><a href="/services/">Services</a></li>
-            <li className=""><a href="/contact/">Contact</a></li>
-            <li className="active"><a href="/training-center/">Training Center - TAKSA</a></li>
-            <li className=""><a href="/head-study/">Pusat Studi</a></li>
-          </ul>
-        </div>
         <div className="desc">
           <div className="topic">
             <div className="left-block">
-              <h2>Thai Takenaka Training Center</h2>
-              <h1>TAKSA</h1>
+              <h2>MACHINERY WAREHOUSE DEPARTEMENT</h2>
             </div>
           </div>
           <div className="detail">
             <div className="two-col-content">
               <div className="img">
-                <img src={`files/4415/2179/8635/TrainingCenter140126-019.jpeg`} width="1034" height="687" alt="" />
+                <StaticImage
+                  src="../gallerys/mwd-1.jpeg"
+                  width="1034"
+                  height="687"
+                  alt="mwd-1"
+              />
               </div>
               <div className="text">
-                <h2>TAKENAKA'S SUSTAINABLE ABILITY</h2>
+                <h2>TAKENAKA'S MACHINERY WAREHOUSE DEPARTEMENT</h2>
                 <p>
-                  "TAKSA", literally translated to "skill" in the Thai language, is the name of the building facility housing the Thai Takenaka Technical Training Field. It conforms to the Corporate Philosophy of Takenaka Corporation, Japan,
-                  which aims at developing a company highly-skilled in quality workmanship that contributes to society by passing on the best works to future generations.
+                  What is Lorem Ipsum?
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                 </p>
               </div>
             </div>
