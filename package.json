@@ -1,0 +1,55 @@
+{
+  "name": "landing_page_mwd",
+  "private": false,
+  "description": "Departement ID New Era Takenaka MWD",
+  "version": "1.0.0",
+  "author": "Aris Prasetiyo",
+  "dependencies": {
+    "gatsby": "^5.1.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
+    "dotenv": "^16.3.1",
+    "gatsby-plugin-config": "^1.0.7",
+    "gatsby-plugin-gatsby-cloud": "^5.1.0",
+    "gatsby-plugin-image": "^3.12.3",
+    "gatsby-plugin-manifest": "^5.1.0",
+    "gatsby-plugin-offline": "^6.1.0",
+    "gatsby-plugin-sass": "^6.1.0",
+    "gatsby-plugin-sharp": "^5.1.0",
+    "gatsby-source-contentful": "^8.12.4",
+    "gatsby-source-filesystem": "^5.1.0",
+    "gatsby-transformer-sharp": "^5.1.0",
+    "prettier": "2.5.1",
+    "sass": "1.49.11"
+  },
+  "keywords": [
+    "gatsby",
+    "starter",
+    "bootstrap",
+    "sass"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-ichard/gatsby-starter-bootstrap-5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "homepage": "https://github.com/r-ichard/gatsby-starter-bootstrap-5#readme",
+  "main": "gatsby-browser.js"
+}
