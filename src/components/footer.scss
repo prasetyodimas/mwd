@@ -1,7 +1,10 @@
+@import "../styles/variables/vars";
+
 footer {
-  background-color: #FFF;
+  background-color: $magenta;
   float: left;
   width: 100%;
+  padding: 5em;
 
   .footer {
     float: left;
@@ -21,8 +24,8 @@ footer {
 
     .copy {
       p, a {
-        color: #c1c1c1;
-        font-size: 12px;
+        color: #FFFF;
+        font-size: 14px;
         margin: 0;
       }
 
@@ -56,10 +59,14 @@ footer {
         a {
           position: relative;
           text-transform: uppercase;
-          color: #b5b5b5;
+          color: $white;
+          font-size: 14px;
+          text-decoration: none;
 
           &:hover, &.nav-selected, &.nav-path-selected services {
-            color: #822443;
+            color: #DDD;
+            font-size: 15px;
+            text-decoration: none;
           }
         }
       }
